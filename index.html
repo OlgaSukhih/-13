@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Guess why</title>
+  <title>Present Perfect Continuous</title>
   <style>
     body {
       margin: 0;
@@ -54,10 +53,10 @@
       bottom: 0;
       left: 0;
       width: 100%;
-      background: rgba(0,0,0,0.7);
+      background: rgba(0, 0, 0, 0.7);
       color: #fff;
       padding: 10px;
-      font-size: 1rem;
+      font-size: 1.1rem;
       display: none;
     }
 
@@ -68,55 +67,84 @@
 </head>
 <body>
 
-  <h1>Guess why</h1>
+  <h1>What have they been doing?</h1>
 
   <div class="gallery">
 
+    <!-- Новые изображения (загруженные тобой) -->
+
+    <div class="card" onclick="this.classList.toggle('revealed')">
+      <img src="/mnt/data/20250510_1517_Модное веселье_remix_01jtwv3xr8e67bykkwn44ptkff.png" alt="Fashion shoot">
+      <div class="answer">She has been choosing outfits for her video.</div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('revealed')">
+      <img src="/mnt/data/20250510_1352_Фотограф с камерой_remix_01jtwp9696e3gvwms7p04b2cx9.png" alt="Photographer">
+      <div class="answer">He has been taking pictures all day.</div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('revealed')">
+      <img src="/mnt/data/20250510_1345_Уставший ученик_remix_01jtwnv56rfk0sv3fn65d8qbr1.png" alt="Tired student">
+      <div class="answer">He has been studying for the test.</div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('revealed')">
+      <img src="/mnt/data/20250510_1347_Девочка с растениями_remix_01jtwnzbcgfyh9gyxx10vb9zn2.png" alt="Gardening girl">
+      <div class="answer">She has been planting flowers.</div>
+    </div>
+
+    <div class="card" onclick="this.classList.toggle('revealed')">
+      <img src="/mnt/data/20250510_1343_Уборка в квартире_remix_01jtwnqmywfckscx05n1p6fkfr.png" alt="Tired cleaner">
+      <div class="answer">She has been cleaning the house all day.</div>
+    </div>
+
+    <!-- Старые изображения с новыми надписями (Present Perfect Continuous) -->
+
     <div class="card" onclick="this.classList.toggle('revealed')">
       <img src="calm_morning.png" alt="">
-      <div class="answer">Because it's a calm morning</div>
+      <div class="answer">She has been enjoying the calm morning.</div>
     </div>
-    
+
     <div class="card" onclick="this.classList.toggle('revealed')">
       <img src="autumn_cozy_atmosphere.png" alt="">
-      <div class="answer">Because it's autumn coziness</div>
+      <div class="answer">They have been relaxing in the cozy autumn atmosphere.</div>
     </div>
-    
+
     <div class="card" onclick="this.classList.toggle('revealed')">
       <img src="autumn_idyll.png" alt="">
-      <div class="answer">Because everything is just perfect</div>
+      <div class="answer">She has been admiring the peaceful scenery.</div>
     </div>
-    
+
     <div class="card" onclick="this.classList.toggle('revealed')">
       <img src="autumn_mood.png" alt="">
-      <div class="answer">Because she's in a creative mood</div>
+      <div class="answer">She has been creating something new.</div>
     </div>
-    
+
     <div class="card" onclick="this.classList.toggle('revealed')">
       <img src="autumn_morning.png" alt="">
-      <div class="answer">Because the cat is really hungry</div>
+      <div class="answer">She has been feeding her cat this morning.</div>
     </div>
-    
+
     <div class="card" onclick="this.classList.toggle('revealed')">
       <img src="autumn_tea.png" alt="">
-      <div class="answer">Because he's having the time of his life</div>
+      <div class="answer">He has been drinking tea and thinking.</div>
     </div>
-    
+
     <div class="card" onclick="this.classList.toggle('revealed')">
       <img src="rainy_day.png" alt="">
-      <div class="answer">Because it's raining again</div>
+      <div class="answer">She has been walking in the rain.</div>
     </div>
-    
+
     <div class="card" onclick="this.classList.toggle('revealed')">
       <img src="sports_and_rest.png" alt="">
-      <div class="answer">Because he just worked out</div>
+      <div class="answer">He has been working out.</div>
     </div>
-    
+
     <div class="card" onclick="this.classList.toggle('revealed')">
       <img src="autumn_comfort.png" alt="">
-      <div class="answer">Because she's feeling lonely</div>
+      <div class="answer">She has been staying home and relaxing.</div>
     </div>
-    
+
   </div>
 </body>
 </html>
